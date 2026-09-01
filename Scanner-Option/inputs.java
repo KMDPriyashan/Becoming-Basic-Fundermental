@@ -6,6 +6,7 @@ public class inputs {
         String name = scan.nextLine();
 
         System.out.println("Your name : "+name);
+        scan.close();
     }
     
 };

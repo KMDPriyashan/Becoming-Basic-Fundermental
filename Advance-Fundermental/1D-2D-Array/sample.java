@@ -6,6 +6,7 @@ public class sample {
 
         //values ganna eka 
         for (int x=0; x<10; x++){
+
             System.out.println("enter your "+(x+1)+"values :");
             int value = scan.nextInt();
             if(value > 100 || value < 0){

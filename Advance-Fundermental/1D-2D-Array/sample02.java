@@ -20,6 +20,14 @@ public class sample02 {
                 array [x][y] = scan.nextInt();
             }
         }
+        displayarray();
 
+    }
+    public static void displayarray() {
+        for(int x=0;x<3;x++){
+            for(int y=0;y<3;y++){
+                System.out.println("values ["+x+"] ["+y+"] :"+array[x][y]);
+            }
+        }
     }
 }

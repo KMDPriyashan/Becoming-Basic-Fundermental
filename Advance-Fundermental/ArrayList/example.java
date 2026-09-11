@@ -19,6 +19,42 @@ public class example {
                 list.add(name);
             }
         }
+
+        displayList();
+        searchStudent();
+        removeStudent();
+        displayList();
+    }
+
+    public static void displayList(){
+        for(String name : list){
+            System.out.print("Studeny name : "+name);
+        }
+        System.out.println("Total Student count :"+list.size());
+    }
+
+    public static void searchStudent(){
+        System.out.println("Enter the user search name : ");
+        String name = scan.nextLine();
+        for(int x=0; x<list.size(); x++){
+            if(name.equals(list.get(x))){
+                System.out.println(name+" are present..!");
+            }
+        }
+    }
+
+    public static void removeStudent(){
+        System.out.println("enter the user remove name : ");
+        String name = scan.nextLine();
+        for(int x=0; x<list.size(); x++){
+            if(name.equals(list.get(x))){
+                list.remove(x);
+                System.out.println(name+" are removed..!");
+            }else{
+                System.out.println(name+" are not present..!");
+            }
+        }
+
     }
 
 

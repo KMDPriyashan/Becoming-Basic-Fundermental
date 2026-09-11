@@ -21,7 +21,8 @@ public class sample02 {
             }
         }
         displayarray();
-
+        
+        scan.close();
     }
     public static void displayarray() {
         for(int x=0;x<3;x++){

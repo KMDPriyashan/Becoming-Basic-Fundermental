@@ -21,6 +21,8 @@ public class sample {
         lowestValue();
         everageValue();
 
+        scan.close();
+
     };
 
     public static void highestValue(){

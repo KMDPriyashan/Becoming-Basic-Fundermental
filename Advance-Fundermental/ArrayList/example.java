@@ -24,6 +24,8 @@ public class example {
         searchStudent();
         removeStudent();
         displayList();
+
+        scan.close();
     }
 
     public static void displayList(){

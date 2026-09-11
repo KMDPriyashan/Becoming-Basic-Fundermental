@@ -28,7 +28,7 @@ public class example {
 
     public static void displayList(){
         for(String name : list){
-            System.out.print("Studeny name : "+name);
+            System.out.println("Student name : "+name);
         }
         System.out.println("Total Student count :"+list.size());
     }
@@ -50,10 +50,9 @@ public class example {
             if(name.equals(list.get(x))){
                 list.remove(x);
                 System.out.println(name+" are removed..!");
-            }else{
-                System.out.println(name+" are not present..!");
             }
         }
+        System.out.println(name+" are not present..!");
 
     }
 

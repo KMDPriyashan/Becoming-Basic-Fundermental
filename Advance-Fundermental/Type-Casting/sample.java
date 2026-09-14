@@ -44,6 +44,18 @@ public class sample {
         
             // ===== Auto-boxing & Unboxing (Primitive <-> Wrapper) =====
 
-        // sfdfvbfdvfs
+        System.out.println("\n=== Auto-boxing & Unboxing ===");
+        // Auto-boxing: Primitive -> Wrapper (Auto)
+        Integer wrapperInt = 50;  // int -> Integer
+        Double wrapperDouble = 25.5;  // double -> Double
+        
+        // Unboxing: Wrapper -> Primitive (Auto)
+        int primitiveInt = wrapperInt;  // Integer -> int
+        double primitiveDouble = wrapperDouble;  // Double -> double
+        
+        System.out.println("Wrapper Integer: " + wrapperInt);
+        System.out.println("Primitive int: " + primitiveInt);
+        System.out.println("Wrapper Double: " + wrapperDouble);
+        System.out.println("Primitive double: " + primitiveDouble);
     }
 }
